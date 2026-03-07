@@ -10,3 +10,6 @@ dependencies = [
     "robotframework",
     "robotframework-browser"
 ]
+
+[tool.setuptools]
+packages = []
