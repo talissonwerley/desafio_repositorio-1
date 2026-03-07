@@ -1,7 +1,6 @@
 ## Projeto de Testes de Interface com Robot Framework - SauceDemo
 
-Este repositório contém a parte de **testes automatizados de interface (UI) com Robot Framework** do desafio “[Desafio para QA - Talisson Werley de Maria](docs/1-Desafio%20para%20QA%20-%20Talisson%20Werley%20de%20Maria.pdf)”.
-
+Este repositório contém a parte de **testes automatizados de interface (UI) com Robot Framework**
 O sistema sob teste é o **SauceDemo** (`https://www.saucedemo.com`) e os fluxos cobertos aqui são:
 
 - **Login**
