@@ -1,0 +1,813 @@
+{"level":30,"time":"2026-03-07T18:21:50.009Z","pid":952,"hostname":"BerserkerMachine","msg":"Listening on 127.0.0.1:59884"}
+{"level":30,"time":"2026-03-07T18:21:50.416Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-03-07T18:21:50.482Z","pid":952,"hostname":"BerserkerMachine","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
+{"level":30,"time":"2026-03-07T18:21:50.483Z","pid":952,"hostname":"BerserkerMachine","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-03-07T18:21:50.483Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-03-07T18:21:50.490Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method newContext"}
+{"level":30,"time":"2026-03-07T18:21:50.490Z","pid":952,"hostname":"BerserkerMachine","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
+{"level":30,"time":"2026-03-07T18:21:50.490Z","pid":952,"hostname":"BerserkerMachine","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@fed2566126763326a60ef0a886d169f8\"},\"headless\":true,\"_contextStack\":[],\"id\":\"browser=e589724a-c713-4f36-9134-50bd67d3be1a\"}"}
+{"level":30,"time":"2026-03-07T18:21:50.490Z","pid":952,"hostname":"BerserkerMachine","msg":"Trace file: "}
+{"level":30,"time":"2026-03-07T18:21:50.496Z","pid":952,"hostname":"BerserkerMachine","msg":"Setting default timeout for context context=8787794e-e85b-4d40-8deb-43eb61eeea16 to 10000"}
+{"level":30,"time":"2026-03-07T18:21:50.497Z","pid":952,"hostname":"BerserkerMachine","msg":"Changed active context: context=8787794e-e85b-4d40-8deb-43eb61eeea16"}
+{"level":30,"time":"2026-03-07T18:21:50.497Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method newContext"}
+{"level":30,"time":"2026-03-07T18:21:50.501Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-03-07T18:21:50.501Z","pid":952,"hostname":"BerserkerMachine","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@fed2566126763326a60ef0a886d169f8\"},\"headless\":true,\"_contextStack\":[{\"id\":\"context=8787794e-e85b-4d40-8deb-43eb61eeea16\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@e17782be3d2f024f8ffa16f63de79284\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}},\"traceFile\":\"\"}],\"id\":\"browser=e589724a-c713-4f36-9134-50bd67d3be1a\"}"}
+{"level":30,"time":"2026-03-07T18:21:50.548Z","pid":952,"hostname":"BerserkerMachine","msg":"Video path: undefined"}
+{"level":30,"time":"2026-03-07T18:21:50.548Z","pid":952,"hostname":"BerserkerMachine","msg":"Changed active page"}
+{"level":30,"time":"2026-03-07T18:21:50.985Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method newPage"}
+{"level":30,"time":"2026-03-07T18:21:50.990Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-07T18:21:50.990Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=user-name in page."}
+{"level":30,"time":"2026-03-07T18:21:51.009Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-07T18:21:51.014Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:51.014Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=user-name in page."}
+{"level":30,"time":"2026-03-07T18:21:51.022Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:51.025Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:51.025Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2026-03-07T18:21:51.032Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:51.036Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-07T18:21:51.036Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=login-button in page."}
+{"level":30,"time":"2026-03-07T18:21:51.093Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method click"}
+{"level":30,"time":"2026-03-07T18:21:51.097Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-07T18:21:51.097Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with css=.inventory_list in page."}
+{"level":30,"time":"2026-03-07T18:21:51.101Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-07T18:21:51.108Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-07T18:21:51.108Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=add-to-cart-sauce-labs-backpack in page."}
+{"level":30,"time":"2026-03-07T18:21:51.149Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method click"}
+{"level":30,"time":"2026-03-07T18:21:51.153Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-07T18:21:51.153Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=shopping_cart_container in page."}
+{"level":30,"time":"2026-03-07T18:21:51.185Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method click"}
+{"level":30,"time":"2026-03-07T18:21:51.193Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2026-03-07T18:21:51.193Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is disabled, return Locator: css=.cart_item in page."}
+{"level":30,"time":"2026-03-07T18:21:51.196Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method getElementCount"}
+{"level":30,"time":"2026-03-07T18:21:51.200Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-07T18:21:51.200Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=checkout in page."}
+{"level":30,"time":"2026-03-07T18:21:51.234Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method click"}
+{"level":30,"time":"2026-03-07T18:21:51.240Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:51.240Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=first-name in page."}
+{"level":30,"time":"2026-03-07T18:21:51.247Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:51.249Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:51.249Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=last-name in page."}
+{"level":30,"time":"2026-03-07T18:21:51.254Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:51.256Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:51.256Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=postal-code in page."}
+{"level":30,"time":"2026-03-07T18:21:51.261Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:51.264Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-07T18:21:51.264Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=continue in page."}
+{"level":30,"time":"2026-03-07T18:21:51.304Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method click"}
+{"level":30,"time":"2026-03-07T18:21:51.310Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-07T18:21:51.310Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with css=.summary_subtotal_label in page."}
+{"level":30,"time":"2026-03-07T18:21:51.329Z","pid":952,"hostname":"BerserkerMachine","msg":"Retrieved text for element css=.summary_subtotal_label containing Item total: $29.99"}
+{"level":30,"time":"2026-03-07T18:21:51.329Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-07T18:21:51.331Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-07T18:21:51.331Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with css=.summary_tax_label in page."}
+{"level":30,"time":"2026-03-07T18:21:51.339Z","pid":952,"hostname":"BerserkerMachine","msg":"Retrieved text for element css=.summary_tax_label containing Tax: $2.40"}
+{"level":30,"time":"2026-03-07T18:21:51.339Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-07T18:21:51.341Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-07T18:21:51.341Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with css=.summary_total_label in page."}
+{"level":30,"time":"2026-03-07T18:21:51.347Z","pid":952,"hostname":"BerserkerMachine","msg":"Retrieved text for element css=.summary_total_label containing Total: $32.39"}
+{"level":30,"time":"2026-03-07T18:21:51.347Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-07T18:21:51.352Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-07T18:21:51.352Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=finish in page."}
+{"level":30,"time":"2026-03-07T18:21:51.367Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method click"}
+{"level":30,"time":"2026-03-07T18:21:51.370Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-07T18:21:51.370Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with css=[data-test=\"complete-header\"] in page."}
+{"level":30,"time":"2026-03-07T18:21:51.373Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-07T18:21:51.375Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-07T18:21:51.375Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with css=[data-test=\"complete-header\"] in page."}
+{"level":30,"time":"2026-03-07T18:21:51.383Z","pid":952,"hostname":"BerserkerMachine","msg":"Retrieved text for element css=[data-test=\"complete-header\"] containing Thank you for your order!"}
+{"level":30,"time":"2026-03-07T18:21:51.383Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-07T18:21:51.387Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2026-03-07T18:21:51.390Z","pid":952,"hostname":"BerserkerMachine","msg":"Removed page=ca0ac5f4-dc47-4070-8cc9-49f52b23c12c from context=8787794e-e85b-4d40-8deb-43eb61eeea16 page stack"}
+{"level":30,"time":"2026-03-07T18:21:51.438Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\index.js:12672:15)
+    at PlaywrightServer.getActiveBrowser (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\index.js:13622:59)
+    at PlaywrightServer.setTimeout (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\index.js:13873:57)
+    at Object.onReceiveHalfClose (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1729:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2026-03-07T18:21:51.442Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-07T18:21:51.442Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-07T18:21:51.444Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-07T18:21:51.444Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-07T18:21:51.447Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-03-07T18:21:51.520Z","pid":952,"hostname":"BerserkerMachine","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
+{"level":30,"time":"2026-03-07T18:21:51.520Z","pid":952,"hostname":"BerserkerMachine","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-03-07T18:21:51.520Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-03-07T18:21:51.526Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method newContext"}
+{"level":30,"time":"2026-03-07T18:21:51.526Z","pid":952,"hostname":"BerserkerMachine","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
+{"level":30,"time":"2026-03-07T18:21:51.526Z","pid":952,"hostname":"BerserkerMachine","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@5d45fe6cffa0346e7aa3a8ddc4ccd8fe\"},\"headless\":true,\"_contextStack\":[],\"id\":\"browser=cacfcaf0-60c0-4eed-ac4b-1140211515d1\"}"}
+{"level":30,"time":"2026-03-07T18:21:51.526Z","pid":952,"hostname":"BerserkerMachine","msg":"Trace file: "}
+{"level":30,"time":"2026-03-07T18:21:51.530Z","pid":952,"hostname":"BerserkerMachine","msg":"Setting default timeout for context context=9eed6f05-50a6-4e0e-bb1c-a40425c92dff to 10000"}
+{"level":30,"time":"2026-03-07T18:21:51.531Z","pid":952,"hostname":"BerserkerMachine","msg":"Changed active context: context=9eed6f05-50a6-4e0e-bb1c-a40425c92dff"}
+{"level":30,"time":"2026-03-07T18:21:51.531Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method newContext"}
+{"level":30,"time":"2026-03-07T18:21:51.535Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-03-07T18:21:51.535Z","pid":952,"hostname":"BerserkerMachine","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@5d45fe6cffa0346e7aa3a8ddc4ccd8fe\"},\"headless\":true,\"_contextStack\":[{\"id\":\"context=9eed6f05-50a6-4e0e-bb1c-a40425c92dff\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@696d73994b5961b349c15a1128c33a4b\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}},\"traceFile\":\"\"}],\"id\":\"browser=cacfcaf0-60c0-4eed-ac4b-1140211515d1\"}"}
+{"level":30,"time":"2026-03-07T18:21:51.587Z","pid":952,"hostname":"BerserkerMachine","msg":"Video path: undefined"}
+{"level":30,"time":"2026-03-07T18:21:51.587Z","pid":952,"hostname":"BerserkerMachine","msg":"Changed active page"}
+{"level":30,"time":"2026-03-07T18:21:52.015Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method newPage"}
+{"level":30,"time":"2026-03-07T18:21:52.018Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-07T18:21:52.018Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=user-name in page."}
+{"level":30,"time":"2026-03-07T18:21:52.033Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-07T18:21:52.036Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:52.036Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=user-name in page."}
+{"level":30,"time":"2026-03-07T18:21:52.044Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:52.047Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:52.047Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2026-03-07T18:21:52.052Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:52.055Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-07T18:21:52.055Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=login-button in page."}
+{"level":30,"time":"2026-03-07T18:21:52.109Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method click"}
+{"level":30,"time":"2026-03-07T18:21:52.112Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-07T18:21:52.113Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with css=.inventory_list in page."}
+{"level":30,"time":"2026-03-07T18:21:52.117Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-07T18:21:52.124Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-07T18:21:52.124Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=add-to-cart-sauce-labs-backpack in page."}
+{"level":30,"time":"2026-03-07T18:21:52.166Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method click"}
+{"level":30,"time":"2026-03-07T18:21:52.168Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-07T18:21:52.169Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=add-to-cart-sauce-labs-bike-light in page."}
+{"level":30,"time":"2026-03-07T18:21:52.198Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method click"}
+{"level":30,"time":"2026-03-07T18:21:52.202Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-07T18:21:52.202Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=shopping_cart_container in page."}
+{"level":30,"time":"2026-03-07T18:21:52.235Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method click"}
+{"level":30,"time":"2026-03-07T18:21:52.241Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2026-03-07T18:21:52.241Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is disabled, return Locator: css=.cart_item in page."}
+{"level":30,"time":"2026-03-07T18:21:52.242Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method getElementCount"}
+{"level":30,"time":"2026-03-07T18:21:52.246Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-07T18:21:52.246Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=checkout in page."}
+{"level":30,"time":"2026-03-07T18:21:52.285Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method click"}
+{"level":30,"time":"2026-03-07T18:21:52.291Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:52.291Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=first-name in page."}
+{"level":30,"time":"2026-03-07T18:21:52.298Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:52.300Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:52.300Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=last-name in page."}
+{"level":30,"time":"2026-03-07T18:21:52.305Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:52.307Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:52.307Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=postal-code in page."}
+{"level":30,"time":"2026-03-07T18:21:52.313Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:52.317Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-07T18:21:52.317Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=continue in page."}
+{"level":30,"time":"2026-03-07T18:21:52.354Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method click"}
+{"level":30,"time":"2026-03-07T18:21:52.360Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-07T18:21:52.360Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with css=.summary_subtotal_label in page."}
+{"level":30,"time":"2026-03-07T18:21:52.378Z","pid":952,"hostname":"BerserkerMachine","msg":"Retrieved text for element css=.summary_subtotal_label containing Item total: $39.98"}
+{"level":30,"time":"2026-03-07T18:21:52.378Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-07T18:21:52.381Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-07T18:21:52.381Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with css=.summary_tax_label in page."}
+{"level":30,"time":"2026-03-07T18:21:52.387Z","pid":952,"hostname":"BerserkerMachine","msg":"Retrieved text for element css=.summary_tax_label containing Tax: $3.20"}
+{"level":30,"time":"2026-03-07T18:21:52.387Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-07T18:21:52.389Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-07T18:21:52.389Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with css=.summary_total_label in page."}
+{"level":30,"time":"2026-03-07T18:21:52.394Z","pid":952,"hostname":"BerserkerMachine","msg":"Retrieved text for element css=.summary_total_label containing Total: $43.18"}
+{"level":30,"time":"2026-03-07T18:21:52.394Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-07T18:21:52.399Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-07T18:21:52.399Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=finish in page."}
+{"level":30,"time":"2026-03-07T18:21:52.417Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method click"}
+{"level":30,"time":"2026-03-07T18:21:52.420Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-07T18:21:52.420Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with css=[data-test=\"complete-header\"] in page."}
+{"level":30,"time":"2026-03-07T18:21:52.422Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-07T18:21:52.424Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-07T18:21:52.424Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with css=[data-test=\"complete-header\"] in page."}
+{"level":30,"time":"2026-03-07T18:21:52.432Z","pid":952,"hostname":"BerserkerMachine","msg":"Retrieved text for element css=[data-test=\"complete-header\"] containing Thank you for your order!"}
+{"level":30,"time":"2026-03-07T18:21:52.432Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-07T18:21:52.436Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2026-03-07T18:21:52.438Z","pid":952,"hostname":"BerserkerMachine","msg":"Removed page=35d22701-d712-4ec9-bd9d-57c8a8b9d6e0 from context=9eed6f05-50a6-4e0e-bb1c-a40425c92dff page stack"}
+{"level":30,"time":"2026-03-07T18:21:52.486Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\index.js:12672:15)
+    at PlaywrightServer.getActiveBrowser (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\index.js:13622:59)
+    at PlaywrightServer.setTimeout (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\index.js:13873:57)
+    at Object.onReceiveHalfClose (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1729:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2026-03-07T18:21:52.489Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-07T18:21:52.489Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-07T18:21:52.491Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-07T18:21:52.491Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-07T18:21:52.493Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-03-07T18:21:52.555Z","pid":952,"hostname":"BerserkerMachine","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
+{"level":30,"time":"2026-03-07T18:21:52.555Z","pid":952,"hostname":"BerserkerMachine","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-03-07T18:21:52.555Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-03-07T18:21:52.561Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method newContext"}
+{"level":30,"time":"2026-03-07T18:21:52.561Z","pid":952,"hostname":"BerserkerMachine","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
+{"level":30,"time":"2026-03-07T18:21:52.561Z","pid":952,"hostname":"BerserkerMachine","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@124436d5ee79e34f0d3f061cdb33b073\"},\"headless\":true,\"_contextStack\":[],\"id\":\"browser=f09df7e3-87eb-459e-954d-3c28149c49f8\"}"}
+{"level":30,"time":"2026-03-07T18:21:52.561Z","pid":952,"hostname":"BerserkerMachine","msg":"Trace file: "}
+{"level":30,"time":"2026-03-07T18:21:52.564Z","pid":952,"hostname":"BerserkerMachine","msg":"Setting default timeout for context context=8b29835c-68fb-4892-ba64-3e0fba3d155d to 10000"}
+{"level":30,"time":"2026-03-07T18:21:52.564Z","pid":952,"hostname":"BerserkerMachine","msg":"Changed active context: context=8b29835c-68fb-4892-ba64-3e0fba3d155d"}
+{"level":30,"time":"2026-03-07T18:21:52.564Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method newContext"}
+{"level":30,"time":"2026-03-07T18:21:52.567Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-03-07T18:21:52.567Z","pid":952,"hostname":"BerserkerMachine","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@124436d5ee79e34f0d3f061cdb33b073\"},\"headless\":true,\"_contextStack\":[{\"id\":\"context=8b29835c-68fb-4892-ba64-3e0fba3d155d\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@1d2e09060b492b1afaa865c7571d9e56\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}},\"traceFile\":\"\"}],\"id\":\"browser=f09df7e3-87eb-459e-954d-3c28149c49f8\"}"}
+{"level":30,"time":"2026-03-07T18:21:52.613Z","pid":952,"hostname":"BerserkerMachine","msg":"Video path: undefined"}
+{"level":30,"time":"2026-03-07T18:21:52.613Z","pid":952,"hostname":"BerserkerMachine","msg":"Changed active page"}
+{"level":30,"time":"2026-03-07T18:21:53.060Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method newPage"}
+{"level":30,"time":"2026-03-07T18:21:53.064Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-07T18:21:53.064Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=user-name in page."}
+{"level":30,"time":"2026-03-07T18:21:53.079Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-07T18:21:53.082Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:53.082Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=user-name in page."}
+{"level":30,"time":"2026-03-07T18:21:53.089Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:53.091Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:53.091Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2026-03-07T18:21:53.096Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:53.098Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-07T18:21:53.098Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=login-button in page."}
+{"level":30,"time":"2026-03-07T18:21:53.154Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method click"}
+{"level":30,"time":"2026-03-07T18:21:53.158Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-07T18:21:53.159Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with css=.inventory_list in page."}
+{"level":30,"time":"2026-03-07T18:21:53.166Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-07T18:21:53.173Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-07T18:21:53.173Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=add-to-cart-sauce-labs-backpack in page."}
+{"level":30,"time":"2026-03-07T18:21:53.198Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method click"}
+{"level":30,"time":"2026-03-07T18:21:53.203Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-07T18:21:53.203Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=shopping_cart_container in page."}
+{"level":30,"time":"2026-03-07T18:21:53.234Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method click"}
+{"level":30,"time":"2026-03-07T18:21:53.240Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-07T18:21:53.240Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=checkout in page."}
+{"level":30,"time":"2026-03-07T18:21:53.269Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method click"}
+{"level":30,"time":"2026-03-07T18:21:53.275Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:53.275Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=first-name in page."}
+{"level":30,"time":"2026-03-07T18:21:53.281Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:53.283Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:53.283Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=last-name in page."}
+{"level":30,"time":"2026-03-07T18:21:53.287Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:53.289Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:53.289Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=postal-code in page."}
+{"level":30,"time":"2026-03-07T18:21:53.294Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:53.297Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-07T18:21:53.297Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=continue in page."}
+{"level":30,"time":"2026-03-07T18:21:53.335Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method click"}
+{"level":30,"time":"2026-03-07T18:21:53.339Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-07T18:21:53.339Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with css=[data-test=\"error\"] in page."}
+{"level":30,"time":"2026-03-07T18:21:53.341Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-07T18:21:53.343Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-07T18:21:53.343Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with css=[data-test=\"error\"] in page."}
+{"level":30,"time":"2026-03-07T18:21:53.358Z","pid":952,"hostname":"BerserkerMachine","msg":"Retrieved text for element css=[data-test=\"error\"] containing Error: First Name is required"}
+{"level":30,"time":"2026-03-07T18:21:53.358Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-07T18:21:53.362Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2026-03-07T18:21:53.363Z","pid":952,"hostname":"BerserkerMachine","msg":"Removed page=25f857b8-ebc2-48d3-9b62-ec26380abc2a from context=8b29835c-68fb-4892-ba64-3e0fba3d155d page stack"}
+{"level":30,"time":"2026-03-07T18:21:53.416Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\index.js:12672:15)
+    at PlaywrightServer.getActiveBrowser (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\index.js:13622:59)
+    at PlaywrightServer.setTimeout (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\index.js:13873:57)
+    at Object.onReceiveHalfClose (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1729:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2026-03-07T18:21:53.419Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-07T18:21:53.419Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-07T18:21:53.420Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-07T18:21:53.420Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-07T18:21:53.423Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-03-07T18:21:53.486Z","pid":952,"hostname":"BerserkerMachine","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
+{"level":30,"time":"2026-03-07T18:21:53.487Z","pid":952,"hostname":"BerserkerMachine","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-03-07T18:21:53.487Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-03-07T18:21:53.492Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method newContext"}
+{"level":30,"time":"2026-03-07T18:21:53.492Z","pid":952,"hostname":"BerserkerMachine","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
+{"level":30,"time":"2026-03-07T18:21:53.492Z","pid":952,"hostname":"BerserkerMachine","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@c96ea451c3e08efe4dee391f3f831b59\"},\"headless\":true,\"_contextStack\":[],\"id\":\"browser=892062e3-2dcd-4c07-af7e-8ec38a4d1c1f\"}"}
+{"level":30,"time":"2026-03-07T18:21:53.492Z","pid":952,"hostname":"BerserkerMachine","msg":"Trace file: "}
+{"level":30,"time":"2026-03-07T18:21:53.496Z","pid":952,"hostname":"BerserkerMachine","msg":"Setting default timeout for context context=647b984e-2d3c-4f84-b4de-9f9544777261 to 10000"}
+{"level":30,"time":"2026-03-07T18:21:53.496Z","pid":952,"hostname":"BerserkerMachine","msg":"Changed active context: context=647b984e-2d3c-4f84-b4de-9f9544777261"}
+{"level":30,"time":"2026-03-07T18:21:53.496Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method newContext"}
+{"level":30,"time":"2026-03-07T18:21:53.500Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-03-07T18:21:53.500Z","pid":952,"hostname":"BerserkerMachine","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@c96ea451c3e08efe4dee391f3f831b59\"},\"headless\":true,\"_contextStack\":[{\"id\":\"context=647b984e-2d3c-4f84-b4de-9f9544777261\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@7d5eea8606e39ca66d5ee3b343cb187e\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}},\"traceFile\":\"\"}],\"id\":\"browser=892062e3-2dcd-4c07-af7e-8ec38a4d1c1f\"}"}
+{"level":30,"time":"2026-03-07T18:21:53.550Z","pid":952,"hostname":"BerserkerMachine","msg":"Video path: undefined"}
+{"level":30,"time":"2026-03-07T18:21:53.550Z","pid":952,"hostname":"BerserkerMachine","msg":"Changed active page"}
+{"level":30,"time":"2026-03-07T18:21:54.006Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method newPage"}
+{"level":30,"time":"2026-03-07T18:21:54.010Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-07T18:21:54.010Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=user-name in page."}
+{"level":30,"time":"2026-03-07T18:21:54.025Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-07T18:21:54.028Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:54.028Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=user-name in page."}
+{"level":30,"time":"2026-03-07T18:21:54.035Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:54.038Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:54.038Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2026-03-07T18:21:54.043Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:54.046Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-07T18:21:54.046Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=login-button in page."}
+{"level":30,"time":"2026-03-07T18:21:54.112Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method click"}
+{"level":30,"time":"2026-03-07T18:21:54.116Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-07T18:21:54.116Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with css=.inventory_list in page."}
+{"level":30,"time":"2026-03-07T18:21:54.118Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-07T18:21:54.123Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-07T18:21:54.123Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=add-to-cart-sauce-labs-backpack in page."}
+{"level":30,"time":"2026-03-07T18:21:54.149Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method click"}
+{"level":30,"time":"2026-03-07T18:21:54.152Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-07T18:21:54.152Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=shopping_cart_container in page."}
+{"level":30,"time":"2026-03-07T18:21:54.185Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method click"}
+{"level":30,"time":"2026-03-07T18:21:54.190Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-07T18:21:54.190Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=checkout in page."}
+{"level":30,"time":"2026-03-07T18:21:54.218Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method click"}
+{"level":30,"time":"2026-03-07T18:21:54.224Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:54.224Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=first-name in page."}
+{"level":30,"time":"2026-03-07T18:21:54.230Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:54.232Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:54.232Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=last-name in page."}
+{"level":30,"time":"2026-03-07T18:21:54.236Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:54.238Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:54.238Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=postal-code in page."}
+{"level":30,"time":"2026-03-07T18:21:54.242Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:54.247Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-07T18:21:54.247Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=continue in page."}
+{"level":30,"time":"2026-03-07T18:21:54.286Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method click"}
+{"level":30,"time":"2026-03-07T18:21:54.290Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-07T18:21:54.290Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with css=[data-test=\"error\"] in page."}
+{"level":30,"time":"2026-03-07T18:21:54.292Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-07T18:21:54.293Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-07T18:21:54.293Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with css=[data-test=\"error\"] in page."}
+{"level":30,"time":"2026-03-07T18:21:54.308Z","pid":952,"hostname":"BerserkerMachine","msg":"Retrieved text for element css=[data-test=\"error\"] containing Error: Last Name is required"}
+{"level":30,"time":"2026-03-07T18:21:54.308Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-07T18:21:54.312Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2026-03-07T18:21:54.314Z","pid":952,"hostname":"BerserkerMachine","msg":"Removed page=23ec5f76-5a7a-442c-8f94-383bd62fb1b0 from context=647b984e-2d3c-4f84-b4de-9f9544777261 page stack"}
+{"level":30,"time":"2026-03-07T18:21:54.364Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\index.js:12672:15)
+    at PlaywrightServer.getActiveBrowser (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\index.js:13622:59)
+    at PlaywrightServer.setTimeout (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\index.js:13873:57)
+    at Object.onReceiveHalfClose (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1729:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2026-03-07T18:21:54.367Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-07T18:21:54.367Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-07T18:21:54.368Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-07T18:21:54.368Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-07T18:21:54.371Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-03-07T18:21:54.430Z","pid":952,"hostname":"BerserkerMachine","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
+{"level":30,"time":"2026-03-07T18:21:54.430Z","pid":952,"hostname":"BerserkerMachine","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-03-07T18:21:54.430Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-03-07T18:21:54.435Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method newContext"}
+{"level":30,"time":"2026-03-07T18:21:54.435Z","pid":952,"hostname":"BerserkerMachine","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
+{"level":30,"time":"2026-03-07T18:21:54.435Z","pid":952,"hostname":"BerserkerMachine","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@be330a6f49238a95f0f8b38947a60f38\"},\"headless\":true,\"_contextStack\":[],\"id\":\"browser=040c5905-cad7-4f01-b28b-48fba35e5fe5\"}"}
+{"level":30,"time":"2026-03-07T18:21:54.435Z","pid":952,"hostname":"BerserkerMachine","msg":"Trace file: "}
+{"level":30,"time":"2026-03-07T18:21:54.439Z","pid":952,"hostname":"BerserkerMachine","msg":"Setting default timeout for context context=1e88372e-630b-4036-b57f-b5baba3df050 to 10000"}
+{"level":30,"time":"2026-03-07T18:21:54.439Z","pid":952,"hostname":"BerserkerMachine","msg":"Changed active context: context=1e88372e-630b-4036-b57f-b5baba3df050"}
+{"level":30,"time":"2026-03-07T18:21:54.439Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method newContext"}
+{"level":30,"time":"2026-03-07T18:21:54.442Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-03-07T18:21:54.442Z","pid":952,"hostname":"BerserkerMachine","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@be330a6f49238a95f0f8b38947a60f38\"},\"headless\":true,\"_contextStack\":[{\"id\":\"context=1e88372e-630b-4036-b57f-b5baba3df050\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@d1d7db968f399944c348e0294f391a2f\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}},\"traceFile\":\"\"}],\"id\":\"browser=040c5905-cad7-4f01-b28b-48fba35e5fe5\"}"}
+{"level":30,"time":"2026-03-07T18:21:54.486Z","pid":952,"hostname":"BerserkerMachine","msg":"Video path: undefined"}
+{"level":30,"time":"2026-03-07T18:21:54.486Z","pid":952,"hostname":"BerserkerMachine","msg":"Changed active page"}
+{"level":30,"time":"2026-03-07T18:21:54.923Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method newPage"}
+{"level":30,"time":"2026-03-07T18:21:54.926Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-07T18:21:54.926Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=user-name in page."}
+{"level":30,"time":"2026-03-07T18:21:54.941Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-07T18:21:54.944Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:54.944Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=user-name in page."}
+{"level":30,"time":"2026-03-07T18:21:54.951Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:54.954Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:54.954Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2026-03-07T18:21:54.958Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:54.961Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-07T18:21:54.961Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=login-button in page."}
+{"level":30,"time":"2026-03-07T18:21:55.023Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method click"}
+{"level":30,"time":"2026-03-07T18:21:55.026Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-07T18:21:55.026Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with css=.inventory_list in page."}
+{"level":30,"time":"2026-03-07T18:21:55.030Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-07T18:21:55.037Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-07T18:21:55.037Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=add-to-cart-sauce-labs-backpack in page."}
+{"level":30,"time":"2026-03-07T18:21:55.065Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method click"}
+{"level":30,"time":"2026-03-07T18:21:55.069Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-07T18:21:55.069Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=shopping_cart_container in page."}
+{"level":30,"time":"2026-03-07T18:21:55.100Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method click"}
+{"level":30,"time":"2026-03-07T18:21:55.106Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-07T18:21:55.106Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=checkout in page."}
+{"level":30,"time":"2026-03-07T18:21:55.134Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method click"}
+{"level":30,"time":"2026-03-07T18:21:55.141Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:55.141Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=first-name in page."}
+{"level":30,"time":"2026-03-07T18:21:55.146Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:55.149Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:55.149Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=last-name in page."}
+{"level":30,"time":"2026-03-07T18:21:55.153Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:55.155Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:55.155Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=postal-code in page."}
+{"level":30,"time":"2026-03-07T18:21:55.159Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:55.163Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-07T18:21:55.163Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=continue in page."}
+{"level":30,"time":"2026-03-07T18:21:55.202Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method click"}
+{"level":30,"time":"2026-03-07T18:21:55.205Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-07T18:21:55.205Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with css=[data-test=\"error\"] in page."}
+{"level":30,"time":"2026-03-07T18:21:55.207Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-07T18:21:55.209Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-07T18:21:55.209Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with css=[data-test=\"error\"] in page."}
+{"level":30,"time":"2026-03-07T18:21:55.225Z","pid":952,"hostname":"BerserkerMachine","msg":"Retrieved text for element css=[data-test=\"error\"] containing Error: Postal Code is required"}
+{"level":30,"time":"2026-03-07T18:21:55.225Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-07T18:21:55.228Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2026-03-07T18:21:55.230Z","pid":952,"hostname":"BerserkerMachine","msg":"Removed page=b566dcef-6063-48ce-88d9-407513778a3c from context=1e88372e-630b-4036-b57f-b5baba3df050 page stack"}
+{"level":30,"time":"2026-03-07T18:21:55.280Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\index.js:12672:15)
+    at PlaywrightServer.getActiveBrowser (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\index.js:13622:59)
+    at PlaywrightServer.setTimeout (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\index.js:13873:57)
+    at Object.onReceiveHalfClose (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1729:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2026-03-07T18:21:55.283Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-07T18:21:55.283Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-07T18:21:55.285Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-07T18:21:55.285Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-07T18:21:55.287Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-03-07T18:21:55.348Z","pid":952,"hostname":"BerserkerMachine","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
+{"level":30,"time":"2026-03-07T18:21:55.348Z","pid":952,"hostname":"BerserkerMachine","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-03-07T18:21:55.348Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-03-07T18:21:55.354Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method newContext"}
+{"level":30,"time":"2026-03-07T18:21:55.354Z","pid":952,"hostname":"BerserkerMachine","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
+{"level":30,"time":"2026-03-07T18:21:55.354Z","pid":952,"hostname":"BerserkerMachine","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@b1bb3e3bb7a8fa1686b440fdb39ab763\"},\"headless\":true,\"_contextStack\":[],\"id\":\"browser=22ef7ddf-61eb-4571-a175-e93862e14a18\"}"}
+{"level":30,"time":"2026-03-07T18:21:55.354Z","pid":952,"hostname":"BerserkerMachine","msg":"Trace file: "}
+{"level":30,"time":"2026-03-07T18:21:55.357Z","pid":952,"hostname":"BerserkerMachine","msg":"Setting default timeout for context context=67ee5c71-e49e-4083-8289-5e7637f4eca0 to 10000"}
+{"level":30,"time":"2026-03-07T18:21:55.357Z","pid":952,"hostname":"BerserkerMachine","msg":"Changed active context: context=67ee5c71-e49e-4083-8289-5e7637f4eca0"}
+{"level":30,"time":"2026-03-07T18:21:55.357Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method newContext"}
+{"level":30,"time":"2026-03-07T18:21:55.360Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-03-07T18:21:55.360Z","pid":952,"hostname":"BerserkerMachine","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@b1bb3e3bb7a8fa1686b440fdb39ab763\"},\"headless\":true,\"_contextStack\":[{\"id\":\"context=67ee5c71-e49e-4083-8289-5e7637f4eca0\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@9a180d939da63e37ba64aec09c2fd305\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}},\"traceFile\":\"\"}],\"id\":\"browser=22ef7ddf-61eb-4571-a175-e93862e14a18\"}"}
+{"level":30,"time":"2026-03-07T18:21:55.405Z","pid":952,"hostname":"BerserkerMachine","msg":"Video path: undefined"}
+{"level":30,"time":"2026-03-07T18:21:55.405Z","pid":952,"hostname":"BerserkerMachine","msg":"Changed active page"}
+{"level":30,"time":"2026-03-07T18:21:55.836Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method newPage"}
+{"level":30,"time":"2026-03-07T18:21:55.840Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-07T18:21:55.840Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=user-name in page."}
+{"level":30,"time":"2026-03-07T18:21:55.855Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-07T18:21:55.858Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:55.858Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=user-name in page."}
+{"level":30,"time":"2026-03-07T18:21:55.865Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:55.868Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:55.868Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2026-03-07T18:21:55.873Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:55.875Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-07T18:21:55.875Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=login-button in page."}
+{"level":30,"time":"2026-03-07T18:21:55.941Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method click"}
+{"level":30,"time":"2026-03-07T18:21:55.944Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-07T18:21:55.944Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with css=.inventory_list in page."}
+{"level":30,"time":"2026-03-07T18:21:55.950Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-07T18:21:55.956Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-07T18:21:55.956Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=add-to-cart-sauce-labs-backpack in page."}
+{"level":30,"time":"2026-03-07T18:21:55.982Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method click"}
+{"level":30,"time":"2026-03-07T18:21:55.985Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-07T18:21:55.985Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=shopping_cart_container in page."}
+{"level":30,"time":"2026-03-07T18:21:56.017Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method click"}
+{"level":30,"time":"2026-03-07T18:21:56.023Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-07T18:21:56.023Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=checkout in page."}
+{"level":30,"time":"2026-03-07T18:21:56.050Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method click"}
+{"level":30,"time":"2026-03-07T18:21:56.056Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:56.056Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=first-name in page."}
+{"level":30,"time":"2026-03-07T18:21:56.062Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:56.064Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:56.064Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=last-name in page."}
+{"level":30,"time":"2026-03-07T18:21:56.069Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:56.071Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:56.071Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=postal-code in page."}
+{"level":30,"time":"2026-03-07T18:21:56.075Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:56.079Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-07T18:21:56.079Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=continue in page."}
+{"level":30,"time":"2026-03-07T18:21:56.121Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method click"}
+{"level":30,"time":"2026-03-07T18:21:56.127Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-07T18:21:56.127Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=cancel in page."}
+{"level":30,"time":"2026-03-07T18:21:56.169Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method click"}
+{"level":30,"time":"2026-03-07T18:21:56.172Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2026-03-07T18:21:56.173Z","pid":952,"hostname":"BerserkerMachine","msg":"Removed page=657341c3-84e4-4ce7-989e-ab9016bffae5 from context=67ee5c71-e49e-4083-8289-5e7637f4eca0 page stack"}
+{"level":30,"time":"2026-03-07T18:21:56.220Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\index.js:12672:15)
+    at PlaywrightServer.getActiveBrowser (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\index.js:13622:59)
+    at PlaywrightServer.setTimeout (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\index.js:13873:57)
+    at Object.onReceiveHalfClose (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1729:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2026-03-07T18:21:56.223Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-07T18:21:56.223Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\index.js:12672:15)
+    at PlaywrightServer.getActiveBrowser (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\index.js:13622:59)
+    at PlaywrightServer.setTimeout (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\index.js:13873:57)
+    at Object.onReceiveHalfClose (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1729:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2026-03-07T18:21:56.225Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-07T18:21:56.225Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-07T18:21:56.240Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-07T18:21:56.240Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-07T18:21:56.242Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-07T18:21:56.242Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-07T18:21:56.246Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-03-07T18:21:56.305Z","pid":952,"hostname":"BerserkerMachine","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
+{"level":30,"time":"2026-03-07T18:21:56.305Z","pid":952,"hostname":"BerserkerMachine","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-03-07T18:21:56.305Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-03-07T18:21:56.311Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method newContext"}
+{"level":30,"time":"2026-03-07T18:21:56.311Z","pid":952,"hostname":"BerserkerMachine","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
+{"level":30,"time":"2026-03-07T18:21:56.311Z","pid":952,"hostname":"BerserkerMachine","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@34c1e83003b705cfc553e367593c79ed\"},\"headless\":true,\"_contextStack\":[],\"id\":\"browser=952f0a59-240c-4721-a596-778ae8196fc5\"}"}
+{"level":30,"time":"2026-03-07T18:21:56.311Z","pid":952,"hostname":"BerserkerMachine","msg":"Trace file: "}
+{"level":30,"time":"2026-03-07T18:21:56.314Z","pid":952,"hostname":"BerserkerMachine","msg":"Setting default timeout for context context=86293560-9d9a-446d-8a9e-6ce9014609b4 to 10000"}
+{"level":30,"time":"2026-03-07T18:21:56.314Z","pid":952,"hostname":"BerserkerMachine","msg":"Changed active context: context=86293560-9d9a-446d-8a9e-6ce9014609b4"}
+{"level":30,"time":"2026-03-07T18:21:56.314Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method newContext"}
+{"level":30,"time":"2026-03-07T18:21:56.318Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-03-07T18:21:56.318Z","pid":952,"hostname":"BerserkerMachine","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@34c1e83003b705cfc553e367593c79ed\"},\"headless\":true,\"_contextStack\":[{\"id\":\"context=86293560-9d9a-446d-8a9e-6ce9014609b4\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@e098c63796514e445010583f534cdc3d\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}},\"traceFile\":\"\"}],\"id\":\"browser=952f0a59-240c-4721-a596-778ae8196fc5\"}"}
+{"level":30,"time":"2026-03-07T18:21:56.371Z","pid":952,"hostname":"BerserkerMachine","msg":"Video path: undefined"}
+{"level":30,"time":"2026-03-07T18:21:56.371Z","pid":952,"hostname":"BerserkerMachine","msg":"Changed active page"}
+{"level":30,"time":"2026-03-07T18:21:56.819Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method newPage"}
+{"level":30,"time":"2026-03-07T18:21:56.822Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-07T18:21:56.822Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=user-name in page."}
+{"level":30,"time":"2026-03-07T18:21:56.838Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-07T18:21:56.842Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:56.842Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=user-name in page."}
+{"level":30,"time":"2026-03-07T18:21:56.849Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:56.851Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:56.851Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2026-03-07T18:21:56.856Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:56.859Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-07T18:21:56.859Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=login-button in page."}
+{"level":30,"time":"2026-03-07T18:21:56.929Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method click"}
+{"level":30,"time":"2026-03-07T18:21:56.933Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-07T18:21:56.933Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with css=.inventory_list in page."}
+{"level":30,"time":"2026-03-07T18:21:56.935Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-07T18:21:56.941Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2026-03-07T18:21:56.942Z","pid":952,"hostname":"BerserkerMachine","msg":"Removed page=4f89b2fe-e676-46f3-abf4-04addbc74117 from context=86293560-9d9a-446d-8a9e-6ce9014609b4 page stack"}
+{"level":30,"time":"2026-03-07T18:21:56.981Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\index.js:12672:15)
+    at PlaywrightServer.getActiveBrowser (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\index.js:13622:59)
+    at PlaywrightServer.setTimeout (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\index.js:13873:57)
+    at Object.onReceiveHalfClose (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1729:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2026-03-07T18:21:56.984Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-07T18:21:56.984Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-07T18:21:56.986Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-07T18:21:56.986Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-07T18:21:56.989Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-03-07T18:21:57.052Z","pid":952,"hostname":"BerserkerMachine","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
+{"level":30,"time":"2026-03-07T18:21:57.052Z","pid":952,"hostname":"BerserkerMachine","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-03-07T18:21:57.052Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-03-07T18:21:57.057Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method newContext"}
+{"level":30,"time":"2026-03-07T18:21:57.058Z","pid":952,"hostname":"BerserkerMachine","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
+{"level":30,"time":"2026-03-07T18:21:57.058Z","pid":952,"hostname":"BerserkerMachine","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@6f52410cc4b78ebcd7e5ba04c2737aad\"},\"headless\":true,\"_contextStack\":[],\"id\":\"browser=26c97245-372e-4b3c-9038-078e8501961e\"}"}
+{"level":30,"time":"2026-03-07T18:21:57.058Z","pid":952,"hostname":"BerserkerMachine","msg":"Trace file: "}
+{"level":30,"time":"2026-03-07T18:21:57.061Z","pid":952,"hostname":"BerserkerMachine","msg":"Setting default timeout for context context=0b604678-9b56-49c6-8d4b-1a7c983a1cf9 to 10000"}
+{"level":30,"time":"2026-03-07T18:21:57.061Z","pid":952,"hostname":"BerserkerMachine","msg":"Changed active context: context=0b604678-9b56-49c6-8d4b-1a7c983a1cf9"}
+{"level":30,"time":"2026-03-07T18:21:57.061Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method newContext"}
+{"level":30,"time":"2026-03-07T18:21:57.066Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-03-07T18:21:57.066Z","pid":952,"hostname":"BerserkerMachine","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@6f52410cc4b78ebcd7e5ba04c2737aad\"},\"headless\":true,\"_contextStack\":[{\"id\":\"context=0b604678-9b56-49c6-8d4b-1a7c983a1cf9\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@5cf5a4edb6244ae614fc44035f5e7c10\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}},\"traceFile\":\"\"}],\"id\":\"browser=26c97245-372e-4b3c-9038-078e8501961e\"}"}
+{"level":30,"time":"2026-03-07T18:21:57.118Z","pid":952,"hostname":"BerserkerMachine","msg":"Video path: undefined"}
+{"level":30,"time":"2026-03-07T18:21:57.118Z","pid":952,"hostname":"BerserkerMachine","msg":"Changed active page"}
+{"level":30,"time":"2026-03-07T18:21:57.558Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method newPage"}
+{"level":30,"time":"2026-03-07T18:21:57.561Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-07T18:21:57.562Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=user-name in page."}
+{"level":30,"time":"2026-03-07T18:21:57.577Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-07T18:21:57.581Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:57.581Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=user-name in page."}
+{"level":30,"time":"2026-03-07T18:21:57.587Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:57.590Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:57.590Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2026-03-07T18:21:57.595Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:57.598Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-07T18:21:57.598Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=login-button in page."}
+{"level":30,"time":"2026-03-07T18:21:57.640Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method click"}
+{"level":30,"time":"2026-03-07T18:21:57.643Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-07T18:21:57.643Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with css=[data-test=\"error\"] in page."}
+{"level":30,"time":"2026-03-07T18:21:57.646Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-07T18:21:57.648Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-07T18:21:57.648Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with css=[data-test=\"error\"] in page."}
+{"level":30,"time":"2026-03-07T18:21:57.663Z","pid":952,"hostname":"BerserkerMachine","msg":"Retrieved text for element css=[data-test=\"error\"] containing Epic sadface: Username and password do not match any user in this service"}
+{"level":30,"time":"2026-03-07T18:21:57.663Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-07T18:21:57.667Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2026-03-07T18:21:57.668Z","pid":952,"hostname":"BerserkerMachine","msg":"Removed page=3d0dc83b-144c-45a1-8ef2-45a7b1939de4 from context=0b604678-9b56-49c6-8d4b-1a7c983a1cf9 page stack"}
+{"level":30,"time":"2026-03-07T18:21:57.709Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\index.js:12672:15)
+    at PlaywrightServer.getActiveBrowser (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\index.js:13622:59)
+    at PlaywrightServer.setTimeout (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\index.js:13873:57)
+    at Object.onReceiveHalfClose (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1729:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2026-03-07T18:21:57.711Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-07T18:21:57.711Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-07T18:21:57.713Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-07T18:21:57.713Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-07T18:21:57.716Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-03-07T18:21:57.777Z","pid":952,"hostname":"BerserkerMachine","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
+{"level":30,"time":"2026-03-07T18:21:57.777Z","pid":952,"hostname":"BerserkerMachine","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-03-07T18:21:57.777Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-03-07T18:21:57.782Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method newContext"}
+{"level":30,"time":"2026-03-07T18:21:57.782Z","pid":952,"hostname":"BerserkerMachine","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
+{"level":30,"time":"2026-03-07T18:21:57.782Z","pid":952,"hostname":"BerserkerMachine","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@462da083f380eca8d524f2fd515f70c9\"},\"headless\":true,\"_contextStack\":[],\"id\":\"browser=e2f08851-50c1-4f16-9d3a-75bdbcbe0e91\"}"}
+{"level":30,"time":"2026-03-07T18:21:57.783Z","pid":952,"hostname":"BerserkerMachine","msg":"Trace file: "}
+{"level":30,"time":"2026-03-07T18:21:57.786Z","pid":952,"hostname":"BerserkerMachine","msg":"Setting default timeout for context context=e6d78367-f870-4e59-87d5-3a67de4d2569 to 10000"}
+{"level":30,"time":"2026-03-07T18:21:57.786Z","pid":952,"hostname":"BerserkerMachine","msg":"Changed active context: context=e6d78367-f870-4e59-87d5-3a67de4d2569"}
+{"level":30,"time":"2026-03-07T18:21:57.786Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method newContext"}
+{"level":30,"time":"2026-03-07T18:21:57.789Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-03-07T18:21:57.789Z","pid":952,"hostname":"BerserkerMachine","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@462da083f380eca8d524f2fd515f70c9\"},\"headless\":true,\"_contextStack\":[{\"id\":\"context=e6d78367-f870-4e59-87d5-3a67de4d2569\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@827013fdcdf46dba085a8b8a6f3cb4ed\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}},\"traceFile\":\"\"}],\"id\":\"browser=e2f08851-50c1-4f16-9d3a-75bdbcbe0e91\"}"}
+{"level":30,"time":"2026-03-07T18:21:57.838Z","pid":952,"hostname":"BerserkerMachine","msg":"Video path: undefined"}
+{"level":30,"time":"2026-03-07T18:21:57.838Z","pid":952,"hostname":"BerserkerMachine","msg":"Changed active page"}
+{"level":30,"time":"2026-03-07T18:21:58.273Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method newPage"}
+{"level":30,"time":"2026-03-07T18:21:58.276Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-07T18:21:58.276Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=user-name in page."}
+{"level":30,"time":"2026-03-07T18:21:58.290Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-07T18:21:58.294Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:58.294Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=user-name in page."}
+{"level":30,"time":"2026-03-07T18:21:58.301Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:58.304Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:58.304Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2026-03-07T18:21:58.309Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:58.312Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-07T18:21:58.313Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=login-button in page."}
+{"level":30,"time":"2026-03-07T18:21:58.357Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method click"}
+{"level":30,"time":"2026-03-07T18:21:58.360Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-07T18:21:58.361Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with css=[data-test=\"error\"] in page."}
+{"level":30,"time":"2026-03-07T18:21:58.363Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-07T18:21:58.366Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-07T18:21:58.366Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with css=[data-test=\"error\"] in page."}
+{"level":30,"time":"2026-03-07T18:21:58.382Z","pid":952,"hostname":"BerserkerMachine","msg":"Retrieved text for element css=[data-test=\"error\"] containing Epic sadface: Username and password do not match any user in this service"}
+{"level":30,"time":"2026-03-07T18:21:58.382Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-07T18:21:58.386Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2026-03-07T18:21:58.387Z","pid":952,"hostname":"BerserkerMachine","msg":"Removed page=29868ede-eb0d-41fa-91dc-f7586692a1db from context=e6d78367-f870-4e59-87d5-3a67de4d2569 page stack"}
+{"level":30,"time":"2026-03-07T18:21:58.427Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\index.js:12672:15)
+    at PlaywrightServer.getActiveBrowser (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\index.js:13622:59)
+    at PlaywrightServer.setTimeout (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\index.js:13873:57)
+    at Object.onReceiveHalfClose (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1729:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2026-03-07T18:21:58.430Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-07T18:21:58.431Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-07T18:21:58.432Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-07T18:21:58.432Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-07T18:21:58.435Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-03-07T18:21:58.496Z","pid":952,"hostname":"BerserkerMachine","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
+{"level":30,"time":"2026-03-07T18:21:58.496Z","pid":952,"hostname":"BerserkerMachine","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-03-07T18:21:58.496Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-03-07T18:21:58.502Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method newContext"}
+{"level":30,"time":"2026-03-07T18:21:58.502Z","pid":952,"hostname":"BerserkerMachine","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
+{"level":30,"time":"2026-03-07T18:21:58.502Z","pid":952,"hostname":"BerserkerMachine","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@8c3afe83418a961c74e6ecbcc5418eba\"},\"headless\":true,\"_contextStack\":[],\"id\":\"browser=735947fa-286e-467a-b43d-7977ed2dd595\"}"}
+{"level":30,"time":"2026-03-07T18:21:58.502Z","pid":952,"hostname":"BerserkerMachine","msg":"Trace file: "}
+{"level":30,"time":"2026-03-07T18:21:58.506Z","pid":952,"hostname":"BerserkerMachine","msg":"Setting default timeout for context context=2af9fded-6b3f-44e4-8a06-b2cb5cdf0d39 to 10000"}
+{"level":30,"time":"2026-03-07T18:21:58.506Z","pid":952,"hostname":"BerserkerMachine","msg":"Changed active context: context=2af9fded-6b3f-44e4-8a06-b2cb5cdf0d39"}
+{"level":30,"time":"2026-03-07T18:21:58.506Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method newContext"}
+{"level":30,"time":"2026-03-07T18:21:58.510Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-03-07T18:21:58.510Z","pid":952,"hostname":"BerserkerMachine","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@8c3afe83418a961c74e6ecbcc5418eba\"},\"headless\":true,\"_contextStack\":[{\"id\":\"context=2af9fded-6b3f-44e4-8a06-b2cb5cdf0d39\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@7f0c7f6b3fe9ab7c21405d281fbcc6bd\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}},\"traceFile\":\"\"}],\"id\":\"browser=735947fa-286e-467a-b43d-7977ed2dd595\"}"}
+{"level":30,"time":"2026-03-07T18:21:58.558Z","pid":952,"hostname":"BerserkerMachine","msg":"Video path: undefined"}
+{"level":30,"time":"2026-03-07T18:21:58.558Z","pid":952,"hostname":"BerserkerMachine","msg":"Changed active page"}
+{"level":30,"time":"2026-03-07T18:21:59.002Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method newPage"}
+{"level":30,"time":"2026-03-07T18:21:59.006Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-07T18:21:59.006Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=user-name in page."}
+{"level":30,"time":"2026-03-07T18:21:59.021Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-07T18:21:59.025Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:59.025Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=user-name in page."}
+{"level":30,"time":"2026-03-07T18:21:59.031Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:59.034Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:59.034Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2026-03-07T18:21:59.038Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:59.041Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-07T18:21:59.041Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=login-button in page."}
+{"level":30,"time":"2026-03-07T18:21:59.091Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method click"}
+{"level":30,"time":"2026-03-07T18:21:59.095Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-07T18:21:59.095Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with css=[data-test=\"error\"] in page."}
+{"level":30,"time":"2026-03-07T18:21:59.097Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-07T18:21:59.099Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-07T18:21:59.099Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with css=[data-test=\"error\"] in page."}
+{"level":30,"time":"2026-03-07T18:21:59.117Z","pid":952,"hostname":"BerserkerMachine","msg":"Retrieved text for element css=[data-test=\"error\"] containing Epic sadface: Sorry, this user has been locked out."}
+{"level":30,"time":"2026-03-07T18:21:59.117Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-07T18:21:59.120Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2026-03-07T18:21:59.121Z","pid":952,"hostname":"BerserkerMachine","msg":"Removed page=006e4863-b7ff-4ab6-8b88-7e16c9bb3a6c from context=2af9fded-6b3f-44e4-8a06-b2cb5cdf0d39 page stack"}
+{"level":30,"time":"2026-03-07T18:21:59.160Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\index.js:12672:15)
+    at PlaywrightServer.getActiveBrowser (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\index.js:13622:59)
+    at PlaywrightServer.setTimeout (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\index.js:13873:57)
+    at Object.onReceiveHalfClose (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1729:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2026-03-07T18:21:59.163Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-07T18:21:59.163Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-07T18:21:59.164Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-07T18:21:59.164Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-07T18:21:59.167Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-03-07T18:21:59.228Z","pid":952,"hostname":"BerserkerMachine","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
+{"level":30,"time":"2026-03-07T18:21:59.228Z","pid":952,"hostname":"BerserkerMachine","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-03-07T18:21:59.228Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-03-07T18:21:59.233Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method newContext"}
+{"level":30,"time":"2026-03-07T18:21:59.233Z","pid":952,"hostname":"BerserkerMachine","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
+{"level":30,"time":"2026-03-07T18:21:59.233Z","pid":952,"hostname":"BerserkerMachine","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@402badb4b487c9fdce2abc11867de3a4\"},\"headless\":true,\"_contextStack\":[],\"id\":\"browser=7b487836-b7a7-4f5f-b7b7-9eba70cb303b\"}"}
+{"level":30,"time":"2026-03-07T18:21:59.233Z","pid":952,"hostname":"BerserkerMachine","msg":"Trace file: "}
+{"level":30,"time":"2026-03-07T18:21:59.236Z","pid":952,"hostname":"BerserkerMachine","msg":"Setting default timeout for context context=e0705856-bf34-4b02-a82b-f019b3ade95f to 10000"}
+{"level":30,"time":"2026-03-07T18:21:59.236Z","pid":952,"hostname":"BerserkerMachine","msg":"Changed active context: context=e0705856-bf34-4b02-a82b-f019b3ade95f"}
+{"level":30,"time":"2026-03-07T18:21:59.236Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method newContext"}
+{"level":30,"time":"2026-03-07T18:21:59.240Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-03-07T18:21:59.240Z","pid":952,"hostname":"BerserkerMachine","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@402badb4b487c9fdce2abc11867de3a4\"},\"headless\":true,\"_contextStack\":[{\"id\":\"context=e0705856-bf34-4b02-a82b-f019b3ade95f\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@583bcd9e5ffd5dd3bda2f157ebfd5f3e\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}},\"traceFile\":\"\"}],\"id\":\"browser=7b487836-b7a7-4f5f-b7b7-9eba70cb303b\"}"}
+{"level":30,"time":"2026-03-07T18:21:59.287Z","pid":952,"hostname":"BerserkerMachine","msg":"Video path: undefined"}
+{"level":30,"time":"2026-03-07T18:21:59.287Z","pid":952,"hostname":"BerserkerMachine","msg":"Changed active page"}
+{"level":30,"time":"2026-03-07T18:21:59.715Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method newPage"}
+{"level":30,"time":"2026-03-07T18:21:59.718Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-07T18:21:59.718Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=user-name in page."}
+{"level":30,"time":"2026-03-07T18:21:59.734Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-07T18:21:59.738Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:59.738Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=user-name in page."}
+{"level":30,"time":"2026-03-07T18:21:59.744Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:59.747Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:59.747Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2026-03-07T18:21:59.750Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-07T18:21:59.753Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-07T18:21:59.753Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with id=login-button in page."}
+{"level":30,"time":"2026-03-07T18:21:59.787Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method click"}
+{"level":30,"time":"2026-03-07T18:21:59.790Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-07T18:21:59.790Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with css=[data-test=\"error\"] in page."}
+{"level":30,"time":"2026-03-07T18:21:59.792Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-07T18:21:59.795Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-07T18:21:59.795Z","pid":952,"hostname":"BerserkerMachine","msg":"Strict mode is enabled, find Locator with css=[data-test=\"error\"] in page."}
+{"level":30,"time":"2026-03-07T18:21:59.811Z","pid":952,"hostname":"BerserkerMachine","msg":"Retrieved text for element css=[data-test=\"error\"] containing Epic sadface: Username is required"}
+{"level":30,"time":"2026-03-07T18:21:59.811Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-07T18:21:59.815Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2026-03-07T18:21:59.817Z","pid":952,"hostname":"BerserkerMachine","msg":"Removed page=d23950fd-1480-4d0d-bf77-ac971bf4508d from context=e0705856-bf34-4b02-a82b-f019b3ade95f page stack"}
+{"level":30,"time":"2026-03-07T18:21:59.854Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\index.js:12672:15)
+    at PlaywrightServer.getActiveBrowser (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\index.js:13622:59)
+    at PlaywrightServer.setTimeout (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\index.js:13873:57)
+    at Object.onReceiveHalfClose (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1729:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2026-03-07T18:21:59.857Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-07T18:21:59.857Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\index.js:12672:15)
+    at PlaywrightServer.getActiveBrowser (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\index.js:13622:59)
+    at PlaywrightServer.setTimeout (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\index.js:13873:57)
+    at Object.onReceiveHalfClose (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (D:\PROJETOS\Robot-Framework\saucedemo-rf\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1729:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2026-03-07T18:21:59.859Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-07T18:21:59.859Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-07T18:21:59.922Z","pid":952,"hostname":"BerserkerMachine","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2026-03-07T18:21:59.922Z","pid":952,"hostname":"BerserkerMachine","msg":"End of node method closeAllBrowsers"}

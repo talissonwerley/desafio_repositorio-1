@@ -1,0 +1,45 @@
+########################
+# Python
+########################
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+########################
+# Robot Framework
+########################
+output.xml
+log.html
+report.html
+results/
+
+########################
+# IDE / Editor / OS
+########################
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+########################
+# Tools / Others
+########################
+.cursor/
+
+########################
+# Docs / Others
+########################
+.docs/
