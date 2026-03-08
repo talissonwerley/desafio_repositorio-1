@@ -8,6 +8,10 @@ on:
 jobs:
   robot-tests:
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        suite: [ login, checkout ]
 
     steps:
       - name: Checkout repository
@@ -27,14 +31,13 @@ jobs:
         run: |
           rfbrowser init
 
-      - name: Run Robot Framework tests
+      - name: Run Robot Framework tests (${{ matrix.suite }})
         run: |
-          robot -d results tests
+          robot -d results tests/${{ matrix.suite }}
 
-      # Inclui log.html, report.html, output.xml, results/screenshots e results/videos
-      - name: Upload Robot results
+      # log.html, report.html, output.xml, screenshots e videos da suíte
+      - name: Upload Robot results (${{ matrix.suite }})
         uses: actions/upload-artifact@v4
         with:
-          name: robot-results
+          name: robot-results-${{ matrix.suite }}
           path: results
-
