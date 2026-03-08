@@ -106,12 +106,12 @@ O workflow em `.github/workflows/robot-tests.yml`:
 
 - Usa Python 3.11
 - Instala dependências (`pip install .`) e executa `rfbrowser init`
-- Roda os testes com `robot -d results tests` (browser em modo headless)
-- Faz upload da pasta **results/** como artefato **robot-results**
+- **Execução paralela:** roda duas suítes em jobs simultâneos (matrix) — um job para `tests/login`, outro para `tests/checkout` — com browser em modo headless
+- Faz upload de dois artefatos: **robot-results-login** e **robot-results-checkout** (cada um com `log.html`, `report.html`, `output.xml`, `screenshots/` e `videos/` da suíte correspondente)
 
 Disparo: em **push** e **pull_request** para os branches `main` e `master`.
 
-Na aba **Actions** do repositório, em cada execução é possível baixar o artefato com `log.html`, `report.html`, `output.xml`, `screenshots/` e `videos/`.
+Na aba **Actions** do repositório, em cada execução aparecem os dois artefatos para download; com `fail-fast: false`, a falha de uma suíte não interrompe a outra.
 
 ---
 
