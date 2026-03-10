@@ -257,6 +257,3 @@ Sugestões baseadas na estrutura atual do projeto:
 - **Dashboard de testes:** integrar o output.xml a ferramentas como Allure ou ReportPortal para histórico de execuções, tendências e métricas por suíte/teste.  
 - **Gestão de testes:** vincular casos de teste a requisitos ou IDs em ferramentas de gestão (ex.: tags com ID do caso) e usar parsers do output.xml para reportar status por requisito ou plano de teste.
 
----
-
-*Relatório gerado com base no código e na configuração do repositório atual. Todas as descrições referem-se a arquivos e comportamentos existentes no projeto.*
